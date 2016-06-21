@@ -1,19 +1,18 @@
 ﻿@model IEnumerable<NEO_natal.Models.Survey>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Surveys";
 }
 
 <h2>Index</h2>
+<h1>Surveys</h1>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.CommunityHealthWorker.loginName)
-        </th>
         <th>
             @Html.DisplayNameFor(model => model.Mothers_Data.firstName)
         </th>
@@ -23,80 +22,11 @@
         <th>
             @Html.DisplayNameFor(model => model.zip)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.race)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.firstChild)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.prematureBirth)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.visitObgyn)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.age)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.stress)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.smoke)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.familySmoke)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.alcohol)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.familyAlcohol)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.drugs)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.familyDrugs)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.safeOwnHome)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.safeNeighborhood)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.chronicIllness)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.transportation)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.homeInternet)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.mobileInternet)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.diet)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.govAssistance)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.income)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.education)
-        </th>
-        <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.CommunityHealthWorker.loginName)
-        </td>
+        
         <td>
             @Html.DisplayFor(modelItem => item.Mothers_Data.firstName)
         </td>
@@ -107,72 +37,6 @@
             @Html.DisplayFor(modelItem => item.zip)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.race)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.firstChild)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.prematureBirth)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.visitObgyn)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.age)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.stress)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.smoke)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.familySmoke)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.alcohol)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.familyAlcohol)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.drugs)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.familyDrugs)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.safeOwnHome)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.safeNeighborhood)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.chronicIllness)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.transportation)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.homeInternet)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.mobileInternet)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.diet)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.govAssistance)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.income)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.education)
-        </td>
-        <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ID })
@@ -181,3 +45,4 @@
 }
 
 </table>
+

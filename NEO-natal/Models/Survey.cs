@@ -23,12 +23,12 @@ namespace NEO_natal.Models
 
         public int race { get; set; }
 
-        public bool firstChild { get; set; }
+        public int firstChild { get; set; }
 
         public int prematureBirth { get; set; }
 
-        [Column(TypeName = "date")]
-        public DateTime visitObgyn { get; set; }
+        
+        public int visitObgyn { get; set; }
 
         public int age { get; set; }
 

@@ -1,75 +1,52 @@
 ﻿@model IEnumerable<NEO_natal.Models.Mothers_Data>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Mother's Data";
 }
 
 <h2>Index</h2>
+<h1>Mother's Data</h1>
+
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.communityHealthWorkerID)
-        </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.firstName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.lastName)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.dOb)
-        </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.address)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.zip)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.phone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.dueDate)
-        </th>
+        
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.communityHealthWorkerID)
-        </td>
+    <tr> 
         <td>
             @Html.DisplayFor(modelItem => item.firstName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.lastName)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.dOb)
-        </td>
+        
         <td>
             @Html.DisplayFor(modelItem => item.address)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.zip)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.phone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.dueDate)
-        </td>
+       
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.mothersId }) |
             @Html.ActionLink("Details", "Details", new { id=item.mothersId }) |

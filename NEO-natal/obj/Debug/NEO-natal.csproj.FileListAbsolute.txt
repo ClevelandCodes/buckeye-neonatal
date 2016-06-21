@@ -66,4 +66,4 @@ c:\users\mike norris\documents\visual studio 2015\Projects\NEO-natal\NEO-natal\b
 c:\users\mike norris\documents\visual studio 2015\Projects\NEO-natal\NEO-natal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\mike norris\documents\visual studio 2015\Projects\NEO-natal\NEO-natal\obj\Debug\NEO-natal.dll
 c:\users\mike norris\documents\visual studio 2015\Projects\NEO-natal\NEO-natal\obj\Debug\NEO-natal.pdb
-c:\users\mike norris\documents\visual studio 2015\Projects\NEO-natal\NEO-natal\obj\Debug\NEO-natal.csprojResolveAssemblyReference.cache
+C:\Users\Mike Norris\documents\visual studio 2015\Projects\NEO-natal\NEO-natal\obj\Debug\NEO-natal.csprojResolveAssemblyReference.cache

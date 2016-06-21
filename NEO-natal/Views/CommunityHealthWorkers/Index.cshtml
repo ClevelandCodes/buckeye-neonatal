@@ -1,10 +1,11 @@
 ﻿@model IEnumerable<NEO_natal.Models.CommunityHealthWorker>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Community Health Worker";
 }
 
 <h2>Index</h2>
+<h1>Community Health Worker</h1>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -14,26 +15,12 @@
         <th>
             @Html.DisplayNameFor(model => model.loginName)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.passWord)
-        </th>
+       
         <th>
             @Html.DisplayNameFor(model => model.firstName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.lastName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.phone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.jobTitle)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.organization)
         </th>
         <th></th>
     </tr>
@@ -44,25 +31,10 @@
             @Html.DisplayFor(modelItem => item.loginName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.passWord)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.firstName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.lastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.phone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.jobTitle)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.organization)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.communityHealthWorkerID }) |
