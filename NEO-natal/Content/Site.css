@@ -1,4 +1,13 @@
-﻿/* hex color values
+﻿
+body
+{
+font-family: 'Libre Baskerville', serif;
+background-color: #e4e1b4;
+color: #2b1d0e;
+border-radius: 0px 50px 0px 0px;
+}
+
+/* hex color values
 
        #85a69f  med blue
        #163b33  THE DARK BLU
@@ -13,20 +22,26 @@
     -----------------------------*/ 
 
 
-body
-{
-
-font-family: 'Libre Baskerville', serif;
-background-color: #e4e1b4;
-color: #696969;
-border-radius: 0px 50px 0px 0px:
-}
 h1
 {
 
 border-bottom: 3px solid #cc9900;
 font: 'Libre Baskerville', serif;
+color: #301d0e;
+}
+
+h4 { /* the questions above the choices*/
+    
+border-bottom: 3px solid #652121;
+font: 'Libre Baskerville', serif;
 color: #996600;
+}
+
+h5 { /*not currently in use where I can see, remove later if not needed*/
+    
+border-bottom: 3px solid #cc9900;
+font: 'Libre Baskerville', serif;
+color: #301d0e;
 }
 #main {
     padding: 20px;
@@ -39,11 +54,12 @@ color: #996600;
 		border-style: solid;
 		border-width: .5px;  
 		background-color: #fafafa;  /* KEEP LIGHT GREEN */
-		/*background: #e4e1b4; /* THE TAN, KEEP */
+		/*background: #e4e1b4; /* THE TAN, KEEP */}}}
+        color: #034af3; 
 }
 a
 {
-color: #034af3; 
+
 }
 /* Menu Styles ------------------------------*/ 
 ul#menu
@@ -58,7 +74,7 @@ display: inline;
 }
 ul#menu li a 
 {
-background-color: #e8eef4;
+background-color: #163b33;
 padding: 10px 20px;
 text-decoration: none;
 line-height: 2.8em;
@@ -94,7 +110,7 @@ table.data
 background-color:#ffffff;
 border:1px solid #163B33;  /* THE DARK BLU */
 border-collapse:collapse;
-width:100%;
+width:90%;
 }
 table.data th
 {
