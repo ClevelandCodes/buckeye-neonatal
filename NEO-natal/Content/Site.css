@@ -1,10 +1,10 @@
 ﻿
-body
-{
-font-family: 'Libre Baskerville', serif;
-background-color: #e4e1b4;
-color: #2b1d0e;
-border-radius: 0px 50px 0px 0px;
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #e4e1b4;
+    color: #2b1d0e;
+    border-radius: 0px 50px 0px 0px;
+	/*background-image: url('headForWebAndDevicesgrnv2.svg');	*/
 }
 
 /* hex color values

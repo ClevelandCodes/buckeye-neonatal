@@ -130,7 +130,6 @@
             <h4>"Does anyone in your household smoke?"</h4>
             @Html.RadioButtonFor(m => m.familySmoke, "1") yes<br> <!--find scores to add for these... -->
             @Html.RadioButtonFor(m => m.familySmoke, "2") no<br>
-            @Html.EditorFor(model => model.familySmoke, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.familySmoke, "", new { @class = "text-danger" })
         </div>
     </div>
