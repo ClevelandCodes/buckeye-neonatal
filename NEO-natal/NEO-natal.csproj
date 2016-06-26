@@ -194,6 +194,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\headForWebAndDevices.svg" />
+    <Content Include="Content\headForWebAndDevicesgrnv2.svg" />
+    <Content Include="Content\headFroWebAndDevicesprplv3.svg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
