@@ -17,10 +17,11 @@
             @Html.DisplayNameFor(model => model.Mothers_Data.firstName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.address)
+            @Html.DisplayNameFor(model => model.Mothers_Data.lastName)
         </th>
+        
         <th>
-            @Html.DisplayNameFor(model => model.zip)
+            @Html.DisplayNameFor(model => model.riskScore)
         </th>
     </tr>
 
@@ -30,11 +31,12 @@
         <td>
             @Html.DisplayFor(modelItem => item.Mothers_Data.firstName)
         </td>
+        <th>
+            @Html.DisplayFor(model => item.Mothers_Data.lastName)
+        </th>
+       
         <td>
-            @Html.DisplayFor(modelItem => item.address)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.zip)
+            @Html.DisplayFor(modelItem => item.riskScore)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
