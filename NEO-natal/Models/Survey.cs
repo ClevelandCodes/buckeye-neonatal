@@ -15,7 +15,7 @@ namespace NEO_natal.Models
 
         public int communityHealthWorkerID { get; set; }
 
-        [Required]
+        
         [StringLength(100)]
         public string address { get; set; }
 
@@ -65,6 +65,8 @@ namespace NEO_natal.Models
         public int income { get; set; }
 
         public int education { get; set; }
+
+        public double riskScore { get; set; }
 
         public virtual CommunityHealthWorker CommunityHealthWorker { get; set; }
 

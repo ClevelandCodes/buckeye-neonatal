@@ -261,6 +261,7 @@
     <Content Include="Views\CommunityHealthWorkers\Details.cshtml" />
     <Content Include="Views\CommunityHealthWorkers\Edit.cshtml" />
     <Content Include="Views\CommunityHealthWorkers\Index.cshtml" />
+    <Content Include="Views\Surveys\RiskScore.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

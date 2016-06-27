@@ -254,7 +254,7 @@
             @Html.RadioButtonFor(m => m.diet, "1") Good <br> <!--find scores to add for these... -->
             @Html.RadioButtonFor(m => m.diet, "2") Okay <br>
             @Html.RadioButtonFor(m => m.diet, "3") Bad<br> <!--find scores to add for these... -->
-        
+
             @Html.ValidationMessageFor(model => model.diet, "", new { @class = "text-danger" })
         </div>
     </div>
@@ -277,7 +277,7 @@
             @Html.RadioButtonFor(m => m.income, "4") $30,000 - $39,999<br>
             @Html.RadioButtonFor(m => m.income, "5") $40,000 - $49,999<br>
             @Html.RadioButtonFor(m => m.income, "6") Above $50,000<br>
-            
+
 
 
             @Html.ValidationMessageFor(model => model.income, "", new { @class = "text-danger" })
@@ -298,10 +298,12 @@
             <input type="submit" value="Create" class="btn btn-default" />
         </div>
     </div>
-    }
+
+
     <div>
-        @Html.ActionLink("Back to List", "Index")
+        @Html.ActionLink("Back to List", "Index", "SurveyResults")
     </div>
     @section Scripts {
         @Scripts.Render("~/bundles/jqueryval")
     }
+</form>
