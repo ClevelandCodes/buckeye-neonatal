@@ -48,6 +48,8 @@ namespace NEO_natal.Models
         [Column(TypeName = "date")]
         public DateTime dueDate { get; set; }
 
+        public virtual CommunityHealthWorker CommunityHealthWorker { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Survey> Surveys { get; set; }
     }

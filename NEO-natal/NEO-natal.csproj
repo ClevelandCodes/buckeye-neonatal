@@ -175,15 +175,21 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\Mothers_DataController.cs" />
+    <Compile Include="Controllers\SurveyResultsController.cs" />
     <Compile Include="Controllers\SurveysController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AspNetRole.cs" />
     <Compile Include="Models\AspNetUser.cs" />
+    <Compile Include="Models\AspNetUserClaim.cs" />
+    <Compile Include="Models\AspNetUserLogin.cs" />
     <Compile Include="Models\CommunityHealthWorker.cs" />
+    <Compile Include="Models\C__MigrationHistory.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\SurveyResults.cs" />
     <Compile Include="Models\Mothers_Data.cs" />
     <Compile Include="Models\NEO_natalContext.cs" />
     <Compile Include="Models\Survey.cs" />
@@ -215,7 +221,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -264,6 +272,12 @@
     <Content Include="Views\CommunityHealthWorkers\Details.cshtml" />
     <Content Include="Views\CommunityHealthWorkers\Edit.cshtml" />
     <Content Include="Views\CommunityHealthWorkers\Index.cshtml" />
+    <Content Include="Views\SurveyResults\Create.cshtml" />
+    <Content Include="Views\SurveyResults\Delete.cshtml" />
+    <Content Include="Views\SurveyResults\Details.cshtml" />
+    <Content Include="Views\SurveyResults\Edit.cshtml" />
+    <Content Include="Views\SurveyResults\Index.cshtml" />
+    <Content Include="Views\SurveyResults.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

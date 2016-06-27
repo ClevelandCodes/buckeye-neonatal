@@ -27,7 +27,6 @@ namespace NEO_natal.Models
 
         public int prematureBirth { get; set; }
 
-        
         public int visitObgyn { get; set; }
 
         public int age { get; set; }

@@ -1,0 +1,227 @@
+﻿@model NEO_natal.Models.Survey
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Surveys/Details.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Survey Results</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CommunityHealthWorker.loginName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CommunityHealthWorker.loginName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mothers_Data.firstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mothers_Data.firstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.zip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.zip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.race)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.race)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstChild)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstChild)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prematureBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prematureBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.visitObgyn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.visitObgyn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.smoke)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.smoke)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.familySmoke)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.familySmoke)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alcohol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alcohol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.familyAlcohol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.familyAlcohol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.drugs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.drugs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.familyDrugs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.familyDrugs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.safeOwnHome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.safeOwnHome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.safeNeighborhood)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.safeNeighborhood)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chronicIllness)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chronicIllness)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.transportation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.transportation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.homeInternet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.homeInternet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mobileInternet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mobileInternet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.diet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.govAssistance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.govAssistance)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.income)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.income)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.education)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.education)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
