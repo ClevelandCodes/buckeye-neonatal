@@ -194,6 +194,7 @@ namespace NEO_natal.Controllers
                         riskScore += 0f;
                     }
 
+                    //QUESTION 6 - 
                    
 
                     //assign this to survey 
