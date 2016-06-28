@@ -4,7 +4,13 @@
     ViewBag.Title = "RiskScore";
 }
 
-<h2>RiskScore</h2>
 
-@Html.DisplayFor(model => model.riskScore)
+<h2>Risk Score</h2>
 
+<div class="form-horizontal">
+    <h1 align="center">Mother's Risk Score:</h1>
+    <hr />
+  
+    <h1 align="center">@Html.DisplayFor(model => model.riskScore)</h1>       
+</div>
+    
