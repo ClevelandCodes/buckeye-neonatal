@@ -187,15 +187,193 @@ namespace NEO_natal.Controllers
 
                     if (visitObgyn == 2)
                     {
-                        riskScore += 4.8f;
+                        riskScore += 4.8;
                     }
                     else
                     {
-                        riskScore += 0f;
+                        riskScore += 0;
                     }
 
-                    //QUESTION 6 - 
-                   
+                    //QUESTION 6 - Age
+                    int age = Convert.ToInt32(survey.age);
+
+                    if (age == 1)
+                    {
+                        riskScore += 4;
+                    }
+                    else if (age == 2)
+                    {
+                        riskScore += 2;
+                    }
+                    else if (age == 3)
+                    {
+                        riskScore += 0;
+                    }
+                    else
+                    {
+                        riskScore += 3;
+                    }
+
+                    ///Question 7 - Stress level
+                    ///
+                    int stress = Convert.ToInt32(survey.stress);
+
+                    if (stress == 1)
+                    {
+                        riskScore += 1;
+                    }
+                    else if (stress == 2)
+                    {
+                        riskScore += 1;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 8 - Tobacco Use
+                    ///
+                    int smoke = Convert.ToInt32(survey.smoke);
+
+                    if (smoke == 1)
+                    {
+                        riskScore += 4;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 9 - Household Tobacco Use
+                    ///
+                    int familySmoke = Convert.ToInt32(survey.familySmoke);
+
+                    if (familySmoke == 1)
+                    {
+                        riskScore += 2;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 10 - Alcohol Use
+                    ///
+                    int alcohol = Convert.ToInt32(survey.alcohol);
+
+                    if (alcohol == 1)
+                    {
+                        riskScore += 4;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 11 - Family Alcohol Use
+                    ///
+                    int familyAlcohol = Convert.ToInt32(survey.familyAlcohol);
+
+                    if (familyAlcohol == 1)
+                    {
+                        riskScore += 2;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Quesion 12 - Drug Use
+                    ///
+                    int drugs = Convert.ToInt32(survey.drugs);
+
+                    if (drugs == 1)
+                    {
+                        riskScore += 4;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 13 - Family Drug Use
+                    ///
+                    int familyDrugs = Convert.ToInt32(survey.familyDrugs);
+
+                    if (familyDrugs == 1)
+                    {
+                        riskScore += 2;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 14 - Chronic Illness
+                    ///
+                    int chronicIllness = Convert.ToInt32(survey.chronicIllness);
+
+                    if (chronicIllness == 1)
+                    {
+                        riskScore += 3;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 15 - Nutrition
+                    ///
+
+                    int diet = Convert.ToInt32(survey.diet);
+
+                    if (diet == 1)
+                    {
+                        riskScore += 0;
+                    }
+                    else if (diet == 2)
+                    {
+                        riskScore += .5;
+                    }
+                    else
+                    {
+                        riskScore += 1;
+                    }
+
+                    ///Question 16 - Government Assistance
+                    ///
+                    int govAssistance = Convert.ToInt32(survey.govAssistance);
+
+                    if (govAssistance == 1)
+                    {
+                        riskScore += 2;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+                    ///Question 17 - Education Level
+                    ///
+                    int education = Convert.ToInt32(survey.education);
+
+                    if (education == 1)
+                    {
+                        riskScore += 2;
+                    }
+                    else if (education == 2)
+                    {
+                        riskScore += 1;
+                    }
+                    else
+                    {
+                        riskScore += 0;
+                    }
+
+
+
+
+
 
                     //assign this to survey 
                     survey.riskScore = riskScore;
