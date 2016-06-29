@@ -4384,17 +4384,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: ##163b33;
-  border-color: ##163b33;
+  background-color: #163b33;
+  border-color: #163b33;
 }
 
 .navbar-default .navbar-brand {
-  color: ##163b33;
+  color: #163b33;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: ##163b33;
+  color: #163b33;
   background-color: transparent;
 }
 

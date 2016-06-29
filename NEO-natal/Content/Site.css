@@ -20,7 +20,6 @@ body{
 	border-style: solid;
     border-width: .5px; 
     -----------------------------*/ 
-}
 h1
 {
 
@@ -53,11 +52,8 @@ color: #301d0e;
 		border-style: solid;
 		border-width: .5px;  
 		background-color: #fafafa;  /* KEEP LIGHT GREEN */
-		/*background: #e4e1b4; /* THE TAN, KEEP */}}}
+		/*background: #e4e1b4; /* THE TAN, KEEP */
         color: #034af3; 
-}
-a
-{
 
 }
 /* Menu Styles ------------------------------*/ 
